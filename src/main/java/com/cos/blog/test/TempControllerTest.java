@@ -27,4 +27,9 @@ public class TempControllerTest {
 		return "/test";
 	}	
 	
+	@GetMapping("/down/")
+	public String downJsp() {
+		return "/HP_Download";
+	}
+	
 }
